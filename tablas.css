@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke;
+}
+table {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 5px solid rgb(109, 109, 109);
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: burlywood;
+}
+
+tr:nth-child(odd){
+    background-color: brown;
+}
+img {
+    width: 75%;
+}
+
